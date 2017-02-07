@@ -1,0 +1,133 @@
+body{ 
+  background: url("../images/board.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+  padding: 2%;
+  padding-bottom: 70px; 
+}
+
+*{
+  font-family: 'Catamaran', sans-serif;
+}
+
+h1{
+  font-size: 95px;
+  color: #FEDCD2;
+  opacity: 0.8;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: bolder;
+}
+
+h2{
+  font-size: 95px;
+  color: #DF744A;
+  opacity: 0.8;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: bolder;
+}
+
+h3{
+  color: #BFD8D2;
+  font-size: 46px;
+  line-height: 48px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-weight: bold;
+
+}
+
+h4{
+  color: #BFD8D2;
+  font-size: 30px;
+  line-height: 32px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-weight: bold;
+
+}
+
+p{
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Annie Use Your Telescope', cursive;
+}
+
+div{
+  border-bottom: 2%;
+}
+#a{
+  background-color: #FEDCD2;
+}
+
+#b{
+  background-color: #DCB239;
+}
+
+#c{
+  background-color: #BFD8D2;
+}
+
+#d{
+  background-color: #DF744A;
+}
+
+.row{
+  height:100%;
+}
+
+.navbar{
+/*  background-image: url("../images/wood.jpg");*/
+  background-image: none;
+  border: none;
+  background-color: #BFD8D2;
+  opacity: 0.7;
+
+}
+#contact_icons{
+  text-align: right;
+}
+
+.navigation-link{
+  font-size: 34px;
+  color: white;
+}
+
+.demo-gif{
+  width:100%;
+  height:auto;
+}
+
+
+#tape{
+  width: 30%;
+  height: auto;
+  position: relative;
+
+}
+
+#my-img{
+  text-align: center
+}
+#me{ 
+  position: relative;
+ }
+
+i{
+  color: white;
+}
+
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+       url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+       url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
