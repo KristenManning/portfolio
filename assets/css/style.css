@@ -4,8 +4,8 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 0.9;
-  padding: 2%;
+  opacity: 0.8;
+  padding: 3%;
   padding-bottom: 70px; 
 }
 
@@ -15,7 +15,9 @@ body{
 
 h1{
   font-size: 95px;
-  color: #FEDCD2;
+  line-height: 120px;
+  margin: 3%;
+  color: #BFD8D2;
   opacity: 0.8;
   font-family: 'Homemade Apple', cursive;
   font-weight: bolder;
@@ -23,6 +25,7 @@ h1{
 
 h2{
   font-size: 95px;
+  line-height: 170px;
   color: #DF744A;
   opacity: 0.8;
   font-family: 'Homemade Apple', cursive;
@@ -30,19 +33,18 @@ h2{
 }
 
 h3{
-  color: #BFD8D2;
-  font-size: 46px;
-  line-height: 48px;
-  font-family: 'Annie Use Your Telescope', cursive;
-  font-weight: bold;
-
+/*  color: #BFD8D2;*/
+  color: white;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h4{
-  color: #BFD8D2;
-  font-size: 30px;
+  color: #FEDCD2;
+  font-size: 30px; 
   line-height: 32px;
-  font-family: 'Annie Use Your Telescope', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
 
 }
@@ -57,67 +59,115 @@ p{
 div{
   border-bottom: 2%;
 }
-#a{
-  background-color: #FEDCD2;
-}
 
-#b{
-  background-color: #DCB239;
-}
-
-#c{
-  background-color: #BFD8D2;
-}
-
-#d{
-  background-color: #DF744A;
-}
-
-.row{
-  height:100%;
+a{  
+  font-size: 45px;
+  color: white;
+  font-family: Helvetica;
+  font-family: 'Annie Use Your Telescope', cursive;
+  margin-right:  50px;
+  font-weight: bolder;
 }
 
 .navbar{
 /*  background-image: url("../images/wood.jpg");*/
   background-image: none;
   border: none;
-  background-color: #BFD8D2;
-  opacity: 0.7;
+  background-color: #DCB239;
+  opacity: 0.9;
+  height: 15%;
 
 }
 #contact_icons{
   text-align: right;
 }
 
-.navigation-link{
-  font-size: 34px;
-  color: white;
-}
-
-.demo-gif{
+.demo{
   width:100%;
   height:auto;
+  opacity: 0.8;
 }
 
+.panel-default{
+  height: 100%;
+  overflow: scroll;
+}
 
 #tape{
-  width: 30%;
+  width: 50%;
   height: auto;
-  position: relative;
+  position: absolute;
+  top: -10px;
+  left: 90px;
+  z-index: 1;
 
 }
+
+#appbuttons{
+  text-align: center;
+}
+
+.btn-info{
+  background-color: #BFD8D2;
+  border: none;
+  margin: 1%;
+}
+
+#pg1-content, #pg2-content, #pg3-content, #pg4-content{
+  padding: 7%;
+  padding-top: 1%;
+  border:solid 5px hsla(0, 95%, 35%, 1);
+  border-radius: 255px 15px 225px 15px/15px;
+  background-color: grey;
+  opacity: 0.75;
+
+
+}
+
+#pg1-content{
+  height: 300px;
+  overflow: scroll;
+  border-color:  #DF744A ;
+
+}
+
+#pg2-content, #pg3-content, #pg4-content{
+  border-color:  #BFD8D2 ;
+
+}
+
+
 
 #my-img{
-  text-align: center
+  text-align: center;
+  bottom:0px;
 }
 #me{ 
-  position: relative;
+  z-index: -1;
+
  }
+
+#GALLERY, #PROJECTS, #CONTACT-ME{
+  margin-top: 20%;
+ }
+
 
 i{
   color: white;
 }
 
+.small-images{
+  width: ;
+}
+
+.btn-default{
+  margin: 3%;
+}
+
+.tiny-icon{
+  height: 50px;
+  width: auto;
+}
 
 
 @font-face {
@@ -131,3 +181,18 @@ i{
        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
+
+.box: {
+    display:block;
+    position:relative;
+    top:0;
+    left:0;
+    width:200px;
+    height:200px;
+    background: linear-gradient(#2B3A48 0%, transparent 0%), linear-gradient(135deg, #272220 33.33%, transparent 33.33%) 0 0%, #272220 linear-gradient(45deg, #272220 33.33%, #2B3A48 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#2B3A48 0%, transparent 0%), -webkit-linear-gradient(135deg, #272220 33.33%, transparent 33.33%) 0 0%, #272220 -webkit-linear-gradient(45deg, #272220 33.33%, #2B3A48 33.33%) 0 0%;
+    background: -o-linear-gradient(#2B3A48 0%, transparent 0%), -o-linear-gradient(135deg, #272220 33.33%, transparent 33.33%) 0 0%, #272220 -o-linear-gradient(45deg, #272220 33.33%, #2B3A48 33.33%) 0 0%;
+    background: -moz-linear-gradient(#2B3A48 0%, transparent 0%), -moz-linear-gradient(135deg, #272220 33.33%, transparent 33.33%) 0 0%, #272220 -moz-linear-gradient(45deg, #272220 33.33%, #2B3A48 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+    }
